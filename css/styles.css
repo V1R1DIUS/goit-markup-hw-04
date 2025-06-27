@@ -62,7 +62,7 @@ img{
 .menu{
   display: flex;
   gap: 40px;
-  position: relative;
+  
 }
 
 .menu-item {
@@ -77,6 +77,7 @@ img{
 
 .current{
 color: #404bbf;
+position: relative;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -88,6 +89,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
+  
 }
 
 .menu-item:hover,
